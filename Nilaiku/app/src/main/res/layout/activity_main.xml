@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtNim"
+        android:layout_width="71dp"
+        android:layout_height="48dp"
+        android:textSize="14dp"
+        android:gravity="center"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="26dp"
+        android:text="NIM" />
+
+    <TextView
+        android:id="@+id/txtNama"
+        android:layout_width="71dp"
+        android:layout_height="48dp"
+        android:textSize="14dp"
+        android:gravity="center"
+        android:layout_below="@+id/txtNim"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="31dp"
+        android:text="Nama" />
+
+    <TextView
+        android:id="@+id/txtTugas"
+        android:layout_width="71dp"
+        android:layout_height="48dp"
+        android:textSize="14dp"
+        android:gravity="center"
+        android:layout_below="@+id/txtNama"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="31dp"
+        android:text="Nilai Tugas" />
+
+    <TextView
+        android:id="@+id/txtUts"
+        android:layout_width="71dp"
+        android:layout_height="48dp"
+        android:textSize="14dp"
+        android:gravity="center"
+        android:layout_below="@+id/txtTugas"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="31dp"
+        android:text="Nilai UTS" />
+
+    <TextView
+        android:id="@+id/txtUas"
+        android:layout_width="71dp"
+        android:layout_height="48dp"
+        android:textSize="14dp"
+        android:gravity="center"
+        android:layout_below="@+id/txtUts"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="31dp"
+        android:text="Nilai UAS" />
+
+    <TextView
+        android:id="@+id/txtAkhir"
+        android:layout_width="71dp"
+        android:layout_height="48dp"
+        android:textSize="14dp"
+        android:gravity="center"
+        android:layout_below="@+id/txtUas"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="31dp"
+        android:text="Nilai Akhir" />
+
+    <TextView
+        android:id="@+id/txtHuruf"
+        android:layout_width="71dp"
+        android:layout_height="48dp"
+        android:textSize="14dp"
+        android:gravity="center"
+        android:layout_below="@+id/txtAkhir"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="31dp"
+        android:text="Nilai Huruf" />
+
+    <TextView
+        android:id="@+id/txtPredikat"
+        android:layout_width="71dp"
+        android:layout_height="48dp"
+        android:textSize="14dp"
+        android:gravity="center"
+        android:layout_below="@+id/txtHuruf"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="31dp"
+        android:text="Predikat" />
+
+    <EditText
+        android:id="@+id/editNim"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/txtNim"
+        android:layout_marginTop="26dp"
+        android:layout_toEndOf="@+id/txtNim"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/editNama"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/editNim"
+        android:layout_toEndOf="@+id/txtNama"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/editTgs"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/editNama"
+        android:layout_toEndOf="@+id/txtTugas"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/editUts"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/editTgs"
+        android:layout_toEndOf="@+id/txtUts"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/editUas"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/editUts"
+        android:layout_toEndOf="@+id/txtUas"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:id="@+id/editAkhir"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:enabled="false"
+        android:layout_below="@+id/editUas"
+        android:layout_toEndOf="@+id/txtAkhir" />
+
+    <EditText
+        android:id="@+id/editHuruf"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:enabled="false"
+        android:layout_below="@+id/editAkhir"
+        android:layout_toEndOf="@+id/txtHuruf" />
+
+    <EditText
+        android:id="@+id/editPredikat"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:enabled="false"
+        android:layout_below="@+id/editHuruf"
+        android:layout_toEndOf="@+id/txtPredikat" />
+
+    <EditText
+        android:id="@+id/editPTgs"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="122dp"
+        android:layout_toRightOf="@+id/editTgs"
+        android:enabled="false" />
+
+    <EditText
+        android:id="@+id/editPUts"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/editPTgs"
+        android:enabled="false"
+        android:layout_toEndOf="@+id/editUts" />
+
+    <EditText
+        android:id="@+id/editPUas"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/editPUts"
+        android:enabled="false"
+        android:layout_toEndOf="@+id/editUas" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginBottom="94dp"
+        android:onClick="hitung"
+        android:text="Hitung" />
+
+</RelativeLayout>
