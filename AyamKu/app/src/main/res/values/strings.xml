@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">AyamKu</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="title_placeholder">Title</string>
+    <string name="news_label">News</string>
+    <string name="sports_info_placeholder">Daftar Harga</string>
+
+    <string-array name="sports_titles">
+        <item>Ayam 1</item>
+        <item>Ayam 2</item>
+        <item>Ayam 3</item>
+        <item>Ayam 4</item>
+        <item>Ayam 5</item>
+        <item>Ayam 6</item>
+    </string-array>
+
+    <string-array name="sports_info">
+        <item>10000</item>
+        <item>15000</item>
+        <item>12000</item>
+        <item>17000</item>
+        <item>13000</item>
+        <item>14000</item>
+    </string-array>
+
+    <array name="sports_images">
+        <item>@drawable/an1</item>
+        <item>@drawable/an2</item>
+        <item>@drawable/an3</item>
+        <item>@drawable/an4</item>
+        <item>@drawable/an5</item>
+        <item>@drawable/an6</item>
+    </array>
+</resources>

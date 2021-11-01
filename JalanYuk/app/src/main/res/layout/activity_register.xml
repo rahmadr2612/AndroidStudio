@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="18dp"
+    android:orientation="vertical"
+    tools:context=".Register">
+
+    <EditText
+        android:id="@+id/et_namaLengkapSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/namalengkap_register"
+        android:imeOptions="actionNext"
+        android:inputType="textPersonName"
+        android:maxLines="1"
+        android:singleLine="true" />
+    <EditText
+        android:id="@+id/et_emailSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/username_register"
+        android:imeOptions="actionNext"
+        android:inputType="textAutoComplete"
+        android:maxLines="1"
+        android:singleLine="true" />
+    <EditText
+        android:id="@+id/et_passwordSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password_register"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:imeOptions="actionNext"/>
+    <EditText
+        android:id="@+id/et_passwordSignup2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:hint="@string/confirm_password_register"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:imeActionLabel="Sign Up"
+        android:imeOptions="actionDone" />
+    <Button
+        android:id="@+id/button_signupSignup"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:text="@string/sign_up_bt__register" />
+    <TextView
+        android:id="@+id/registerSign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_sign"
+        android:textSize="20sp"
+        android:layout_marginTop="50dp"
+        android:maxLines="1"
+        android:singleLine="true"/>
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/button_signupSignin"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:text="@string/login_form"
+            android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

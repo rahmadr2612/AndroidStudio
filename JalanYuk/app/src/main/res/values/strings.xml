@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Jalan Yuk</string>
+    <string name="login">Masuk</string>
+    <string name="loguot">Keluar</string>
+    <string name="login_form">Masuk</string>
+    <string name="username_login">Username</string>
+    <string name="password_login">Password</string>
+    <string name="sign_in_bt_login">Masuk</string>
+    <string name="register_sign">Buat Akun</string>
+    <string name="sign_up_login">Daftar</string>
+    <string name="namalengkap_register">Nama</string>
+    <string name="username_register">Username</string>
+    <string name="password_register">Password</string>
+    <string name="confirm_password_register">Confirm Password</string>
+    <string name="sign_up_bt__register">Daftar</string>
+    <string name="login_sign">Sudah Punya Akun</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="akun">Setting Akun</string>
+    <string name="keluar">Keluar</string>
+    <string name="google_mtv_coord_zoom12">geo:37.422114,-122.086744?z=12</string>
+    <string name="title_activity_main">MainActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

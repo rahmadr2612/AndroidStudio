@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="login">Masuk</string>
+    <string name="loguot">Keluar</string>
+    <string name="login_form">Masuk</string>
+    <string name="username_login">Username</string>
+    <string name="password_login">Password</string>
+    <string name="sign_in_bt_login">Masuk</string>
+    <string name="register_sign">Buat Akun</string>
+    <string name="sign_up_login">Daftar</string>
+    <string name="namalengkap_register">Nama</string>
+    <string name="username_register">Username</string>
+    <string name="password_register">Password</string>
+    <string name="confirm_password_register">Confirm Password</string>
+    <string name="sign_up_bt__register">Daftar</string>
+</resources>
