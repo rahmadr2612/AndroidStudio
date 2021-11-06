@@ -3,12 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Smster 5/PPB/Project/JalanYuk/app/src/main/res/layout/activity_akun.xml" value="0.1793478260869565" />
+        <entry key="..\:/Smster 5/PPB/Project/JalanYuk/app/src/main/res/layout/activity_chekout.xml" value="0.15806159420289856" />
+        <entry key="..\:/Smster 5/PPB/Project/JalanYuk/app/src/main/res/layout/activity_detail.xml" value="0.33" />
         <entry key="..\:/Smster 5/PPB/Project/JalanYuk/app/src/main/res/layout/activity_login.xml" value="0.19882246376811594" />
         <entry key="..\:/Smster 5/PPB/Project/JalanYuk/app/src/main/res/layout/activity_main.xml" value="0.19882246376811594" />
         <entry key="..\:/Smster 5/PPB/Project/JalanYuk/app/src/main/res/layout/activity_main2.xml" value="0.19882246376811594" />
+        <entry key="..\:/Smster 5/PPB/Project/JalanYuk/app/src/main/res/layout/activity_pembayaran.xml" value="0.26358695652173914" />
         <entry key="..\:/Smster 5/PPB/Project/JalanYuk/app/src/main/res/layout/activity_register.xml" value="0.19882246376811594" />
+        <entry key="..\:/Smster 5/PPB/Project/JalanYuk/app/src/main/res/layout/activity_splash.xml" value="0.14270833333333333" />
         <entry key="..\:/Smster 5/PPB/Project/JalanYuk/app/src/main/res/layout/content_main.xml" value="0.14270833333333333" />
         <entry key="..\:/Smster 5/PPB/Project/JalanYuk/app/src/main/res/layout/content_main2.xml" value="0.14278269932256382" />
+        <entry key="..\:/Smster 5/PPB/Project/JalanYuk/app/src/main/res/layout/list_item.xml" value="0.33" />
         <entry key="..\:/Smster 5/PPB/Project/JalanYuk/app/src/main/res/menu/menu_main.xml" value="0.27291666666666664" />
       </map>
     </option>

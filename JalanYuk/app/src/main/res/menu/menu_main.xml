@@ -1,18 +1,35 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".MainActivity">
+    tools:context="com.example.jalanyuk.MainActivity">
     <item
-        android:id="@+id/action_keluar"
-        android:orderInCategory="100"
-        android:title="@string/keluar"
-        android:icon="@drawable/ic_baseline_login_24"
-        app:showAsAction="never" />
-
+        android:id="@+id/callCenter"
+        android:orderInCategory="10"
+        android:title="Call Center"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/smsCenter"
+        android:orderInCategory="20"
+        android:title="SMS Center"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/lokasi"
+        android:orderInCategory="30"
+        android:title="Lokasi"
+        app:showAsAction="never"
+        />
     <item
         android:id="@+id/action_akun"
-        android:orderInCategory="10"
-        android:title="@string/akun"
+        android:orderInCategory="40"
+        android:title="Update User dan Akun"
         android:icon="@drawable/ic_baseline_settings_24"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_keluar"
+        android:orderInCategory="50"
+        android:title="@string/keluar"
+        android:icon="@drawable/ic_baseline_login_24"
         app:showAsAction="never" />
 </menu>
